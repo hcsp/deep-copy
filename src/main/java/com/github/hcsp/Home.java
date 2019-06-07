@@ -6,6 +6,7 @@ public class Home {
     public Cat cat;
 
     public Home(Cat cat) {
+
         this.cat = cat;
     }
 }
