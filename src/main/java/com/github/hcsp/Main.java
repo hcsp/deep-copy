@@ -13,5 +13,12 @@ public class Main {
     }
     // Return the deep copy of a Home instance
     // 将传入的Home实例进行深拷贝，返回深拷贝后的实例
-    public static Home deepCopy(Home home) {}
+    public static Home deepCopy(Home home) {
+    Cat cat = new Cat(home.cat.name); //新创建一个Cat把名字赋值给cat
+
+
+
+
+         return  new Home(new Cat(cat.name));//新创建一个home 把cat的name复制过来
+    }
 }
