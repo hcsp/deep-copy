@@ -2,8 +2,6 @@ package com.github.hcsp;
 
 import com.github.hcsp.pet.Cat;
 
-import java.util.concurrent.Callable;
-
 public class Main {
     public static void main(String[] args) {
         Home home = new Home(new Cat("Tom"));
@@ -15,7 +13,5 @@ public class Main {
     }
     // Return the deep copy of a Home instance
     // 将传入的Home实例进行深拷贝，返回深拷贝后的实例
-    public static Home deepCopy(Home home) {
-        return new Home(new Cat("11"));
-    }
+    public static Home deepCopy(Home home) {}
 }
