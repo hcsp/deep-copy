@@ -11,12 +11,7 @@ public class Main {
         // 补全deepCopy()方法，使得程序输出"false"
         System.out.println(home.cat == deepCopy.cat);
     }
-
     // Return the deep copy of a Home instance
     // 将传入的Home实例进行深拷贝，返回深拷贝后的实例
-    public static Home deepCopy(Home home) {
-        Cat newcat = new Cat(home.cat.name);
-        Home newHome = new Home(newcat);
-        return newHome;
-    }
+    public static Home deepCopy(Home home) {}
 }
