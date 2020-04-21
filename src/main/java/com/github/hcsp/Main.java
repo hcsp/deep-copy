@@ -15,7 +15,7 @@ public class Main {
     // 将传入的Home实例进行深拷贝，返回深拷贝后的实例
     public static Home deepCopy(Home home) {
         Cat newcat = new Cat(home.cat.name);
-        Home newhome = new Home(newcat);
-        return newhome;
+        Home newHome = new Home(newcat);
+        return newHome;
     }
 }
