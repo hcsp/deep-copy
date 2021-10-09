@@ -17,8 +17,5 @@ public class Main {
         Home newhome=new Home(new Cat("Tom"));
         return newhome;
 
-
-
-
     }
 }
